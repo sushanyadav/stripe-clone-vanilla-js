@@ -21,7 +21,7 @@ ${SingleItem({
 <h2 class="uppercase font-semibold text-gray-500 mb-2">
 get started
 </h2>
-<div class="gap-1 text-xs flex flex-col text-gray-500">
+<div class="space-y-1 text-xs flex flex-col text-gray-500">
 <a href="#" class="hover:text-gray-800">Pre-built checkouts</a>
 <a href="#" class="hover:text-gray-800">Libraries and SDKs</a>
 <a href="#" class="hover:text-gray-800">Plugins</a>
@@ -32,7 +32,7 @@ get started
 <h2 class="uppercase font-semibold text-gray-500 mb-2">
 guides
 </h2>
-<div class="gap-1 text-xs flex flex-col text-gray-500">
+<div class="space-y-1 text-xs flex flex-col text-gray-500">
 <a href="#" class="hover:text-gray-800">Accept online payments</a>
 <a href="#" class="hover:text-gray-800">Manage subscriptions</a>
 <a href="#" class="hover:text-gray-800">Send payments</a>

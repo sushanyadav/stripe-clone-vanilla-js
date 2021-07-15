@@ -129,7 +129,7 @@ export const businessList = [
 const ProductsDropdown = () => {
   const requiredHTML = `
     <div
-      class="grid grid-cols-3 w-full gap-8  rounded-lg shadow-2xl p-8 bg-white text-gray-900"
+      class="grid grid-cols-3 w-full space-x-8  rounded-lg shadow-2xl p-8 bg-white text-gray-900"
     >
 ${ProductItems({ primaryText: "Payments", items: paymentsList })}
 ${ProductItems({ primaryText: "financial services", items: financialList })}

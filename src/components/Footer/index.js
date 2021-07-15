@@ -156,7 +156,7 @@ countries.map(({ name }) => {
   const country = document.createElement("li");
   const classes = [
     "flex",
-    "gap-2",
+    "space-x-2",
     "text-gray-800",
     "hover:opacity-60",
     "font-medium",
