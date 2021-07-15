@@ -77,5 +77,38 @@ const typeWrite = (string, codeArray, element) => {
   }
 };
 
-typeWrite(clientCodeString, clientCodeArray, clientCodeEl);
-typeWrite(serverCodeString, serverCodeArray, serverCodeEl);
+//Intersection observer
+const observeOptions = {
+  root: null,
+  rootMargin: "700px",
+  threshold: 1,
+};
+
+let animate = false;
+
+const onObserve = function (entries) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting && Math.floor(entry.intersectionRatio) === 1) {
+      /*
+      If you don't check intersectionRatio ratio === 1, 
+      the observed element will trigger the callback twice, 
+      because when immediately passing/leaving 100% threshold, 
+      observer will trigger isIntersecting = true,
+      intersectionRatio ~= 0.9 (maybe bug).
+      
+      Chrome somehow gets intersectionRatio slightly above 1 on 
+      the first box, so floor the value
+      */
+      if (!animate) {
+        animate = true;
+        typeWrite(clientCodeString, clientCodeArray, clientCodeEl);
+        typeWrite(serverCodeString, serverCodeArray, serverCodeEl);
+      }
+    }
+  });
+};
+
+const observe = new IntersectionObserver(onObserve, observeOptions);
+const codeSection = document.getElementById("code-section");
+
+observe.observe(codeSection);

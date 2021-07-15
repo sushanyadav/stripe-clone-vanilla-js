@@ -26,664 +26,67 @@ export const PaymentsIcon = () => {
 };
 
 export const TerminalIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="#9B66FF"
-        d="M36.98 14.05l-6.31 1.36L9.33 20l-7.35 1.58A2.52 2.52 0 000 24.05v13.42C0 38.87 1.12 40 2.5 40h35c1.38 0 2.5-1.13 2.5-2.53V16.53c0-.77-.34-1.49-.93-1.97a2.48 2.48 0 00-2.09-.5z"
-      ></path>
-      <path
-        fill="url(#product-icon-terminal-SiteMenu-a)"
-        d="M28.59 0H11.58A2.54 2.54 0 009 2.5v25c0 1.38 1.15 2.5 2.58 2.5h16.84A2.54 2.54 0 0031 27.5v-25A2.5 2.5 0 0028.59 0z"
-      ></path>
-      <path
-        fill="url(#product-icon-terminal-SiteMenu-b)"
-        d="M31 15.34V27.5c0 1.38-1.15 2.5-2.58 2.5H11.58A2.54 2.54 0 019 27.5v-7.43l.33-.07 21.34-4.59.33-.07z"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-terminal-SiteMenu-a"
-          x1="20"
-          x2="20"
-          y1="1.97"
-          y2="17.6"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#11EFE3"></stop>
-          <stop offset="0.33" stop-color="#15E8E2"></stop>
-          <stop offset="0.74" stop-color="#1FD3E0"></stop>
-          <stop offset="1" stop-color="#21CFE0"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-terminal-SiteMenu-b"
-          x1="31"
-          x2="5.34"
-          y1="22.67"
-          y2="22.67"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#0048E5"></stop>
-          <stop offset="0.64" stop-color="#625AF5"></stop>
-          <stop offset="1" stop-color="#8A62FC"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><path fill="#9B66FF" d="M36.98 14.05l-6.31 1.36L9.33 20l-7.35 1.58A2.52 2.52 0 000 24.05v13.42C0 38.87 1.12 40 2.5 40h35c1.38 0 2.5-1.13 2.5-2.53V16.53c0-.77-.34-1.49-.93-1.97a2.48 2.48 0 00-2.09-.5z"></path><path fill="url(#product-icon-terminal-SiteMenu-a)" d="M28.59 0H11.58A2.54 2.54 0 009 2.5v25c0 1.38 1.15 2.5 2.58 2.5h16.84A2.54 2.54 0 0031 27.5v-25A2.5 2.5 0 0028.59 0z"></path><path fill="url(#product-icon-terminal-SiteMenu-b)" d="M31 15.34V27.5c0 1.38-1.15 2.5-2.58 2.5H11.58A2.54 2.54 0 019 27.5v-7.43l.33-.07 21.34-4.59.33-.07z"></path><defs><linearGradient id="product-icon-terminal-SiteMenu-a" x1="20" x2="20" y1="1.97" y2="17.6" gradientUnits="userSpaceOnUse"><stop stop-color="#11EFE3"></stop><stop offset="0.33" stop-color="#15E8E2"></stop><stop offset="0.74" stop-color="#1FD3E0"></stop><stop offset="1" stop-color="#21CFE0"></stop></linearGradient><linearGradient id="product-icon-terminal-SiteMenu-b" x1="31" x2="5.34" y1="22.67" y2="22.67" gradientUnits="userSpaceOnUse"><stop stop-color="#0048E5"></stop><stop offset="0.64" stop-color="#625AF5"></stop><stop offset="1" stop-color="#8A62FC"></stop></linearGradient></defs></svg>
   `;
 };
 
 export const ConnectIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="url(#product-icon-connect-SiteMenu-a)"
-        d="M12.47.01a13.01 13.01 0 00.5 25.99h10.55c1.37 0 2.48-1.1 2.48-2.48V13.01a12.99 12.99 0 00-13.53-13z"
-      ></path>
-      <path
-        fill="#0073E6"
-        d="M27.53 39.99a13.01 13.01 0 00-.5-25.99H16.48A2.48 2.48 0 0014 16.48v10.51a12.99 12.99 0 0013.53 13z"
-      ></path>
-      <path
-        fill="url(#product-icon-connect-SiteMenu-b)"
-        d="M26 14v9.52A2.48 2.48 0 0123.52 26H14v-9.52A2.48 2.48 0 0116.32 14l.16-.01H26z"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-connect-SiteMenu-a"
-          x1="13"
-          x2="13"
-          y1="1.71"
-          y2="15.25"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#11EFE3"></stop>
-          <stop offset="0.33" stop-color="#15E8E2"></stop>
-          <stop offset="0.74" stop-color="#1FD3E0"></stop>
-          <stop offset="1" stop-color="#21CFE0"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-connect-SiteMenu-b"
-          x1="20"
-          x2="20"
-          y1="15.72"
-          y2="27.24"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00299C"></stop>
-          <stop offset="1" stop-color="#0073E6"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><path fill="url(#product-icon-connect-SiteMenu-a)" d="M12.47.01a13.01 13.01 0 00.5 25.99h10.55c1.37 0 2.48-1.1 2.48-2.48V13.01a12.99 12.99 0 00-13.53-13z"></path><path fill="#0073E6" d="M27.53 39.99a13.01 13.01 0 00-.5-25.99H16.48A2.48 2.48 0 0014 16.48v10.51a12.99 12.99 0 0013.53 13z"></path><path fill="url(#product-icon-connect-SiteMenu-b)" d="M26 14v9.52A2.48 2.48 0 0123.52 26H14v-9.52A2.48 2.48 0 0116.32 14l.16-.01H26z"></path><defs><linearGradient id="product-icon-connect-SiteMenu-a" x1="13" x2="13" y1="1.71" y2="15.25" gradientUnits="userSpaceOnUse"><stop stop-color="#11EFE3"></stop><stop offset="0.33" stop-color="#15E8E2"></stop><stop offset="0.74" stop-color="#1FD3E0"></stop><stop offset="1" stop-color="#21CFE0"></stop></linearGradient><linearGradient id="product-icon-connect-SiteMenu-b" x1="20" x2="20" y1="15.72" y2="27.24" gradientUnits="userSpaceOnUse"><stop stop-color="#00299C"></stop><stop offset="1" stop-color="#0073E6"></stop></linearGradient></defs></svg>
   `;
 };
 
 export const BillingIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="url(#product-icon-billing-SiteMenu-a)"
-        d="M26 2.46C26 1.1 24.9 0 23.53 0H2.47A2.47 2.47 0 000 2.46v30.08a2.46 2.46 0 003.47 2.25l10.2-4.53 10.86-4.83c.9-.4 1.47-1.27 1.47-2.25V2.46z"
-      ></path>
-      <path
-        fill="#00D924"
-        d="M26.5 39a13.5 13.5 0 100-27 13.5 13.5 0 000 27z"
-      ></path>
-      <path
-        fill="url(#product-icon-billing-SiteMenu-b)"
-        d="M26 12v11.18c0 .98-.57 1.86-1.47 2.25l-10.7 4.76A13.5 13.5 0 0126 12z"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-billing-SiteMenu-a"
-          x1="13"
-          x2="13"
-          y1="6.35"
-          y2="35.03"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#FFD748"></stop>
-          <stop offset="1" stop-color="#FFC148"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-billing-SiteMenu-b"
-          x1="19.5"
-          x2="19.5"
-          y1="12.01"
-          y2="30.19"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00A600"></stop>
-          <stop offset="1" stop-color="#00D924"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><path fill="url(#product-icon-billing-SiteMenu-a)" d="M26 2.46C26 1.1 24.9 0 23.53 0H2.47A2.47 2.47 0 000 2.46v30.08a2.46 2.46 0 003.47 2.25l10.2-4.53 10.86-4.83c.9-.4 1.47-1.27 1.47-2.25V2.46z"></path><path fill="#00D924" d="M26.5 39a13.5 13.5 0 100-27 13.5 13.5 0 000 27z"></path><path fill="url(#product-icon-billing-SiteMenu-b)" d="M26 12v11.18c0 .98-.57 1.86-1.47 2.25l-10.7 4.76A13.5 13.5 0 0126 12z"></path><defs><linearGradient id="product-icon-billing-SiteMenu-a" x1="13" x2="13" y1="6.35" y2="35.03" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD748"></stop><stop offset="1" stop-color="#FFC148"></stop></linearGradient><linearGradient id="product-icon-billing-SiteMenu-b" x1="19.5" x2="19.5" y1="12.01" y2="30.19" gradientUnits="userSpaceOnUse"><stop stop-color="#00A600"></stop><stop offset="1" stop-color="#00D924"></stop></linearGradient></defs></svg>
   `;
 };
 
 export const InvoicingIcon = () => {
   return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="#00D924"
-        d="M12.5 1A2.5 2.5 0 0010 3.5v32.831a2.5 2.5 0 01-1.853 2.415l28-7.506A2.5 2.5 0 0038 28.825V3.5A2.5 2.5 0 0035.5 1h-23z"
-      ></path>
-      <path
-        fill="url(#product-icon-invoicing-SiteMenu-a)"
-        d="M1.253 24.548a2.5 2.5 0 00-.915 3.415l5.477 9.486a2.5 2.5 0 002.812 1.165l26.147-7.006-10.187-17.645a2.5 2.5 0 00-3.415-.915l-19.919 11.5z"
-      ></path>
-      <path
-        fill="url(#product-icon-invoicing-SiteMenu-b)"
-        d="M8.402 38.663c.075-.013.15-.03.225-.05l26.147-7.005-10.187-17.645a2.5 2.5 0 00-3.415-.915L10 19.498V36.33a2.5 2.5 0 01-1.598 2.332z"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-invoicing-SiteMenu-a"
-          x1="17.39"
-          x2="17.389"
-          y1="20.25"
-          y2="38"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#FFD748"></stop>
-          <stop offset="1" stop-color="#FFC148"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-invoicing-SiteMenu-b"
-          x1="21.589"
-          x2="21.588"
-          y1="12.712"
-          y2="38.663"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00A600"></stop>
-          <stop offset="1" stop-color="#00D924"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><path fill="#00D924" d="M12.5 1A2.5 2.5 0 0010 3.5v32.831a2.5 2.5 0 01-1.853 2.415l28-7.506A2.5 2.5 0 0038 28.825V3.5A2.5 2.5 0 0035.5 1h-23z"></path><path fill="url(#product-icon-invoicing-SiteMenu-a)" d="M1.253 24.548a2.5 2.5 0 00-.915 3.415l5.477 9.486a2.5 2.5 0 002.812 1.165l26.147-7.006-10.187-17.645a2.5 2.5 0 00-3.415-.915l-19.919 11.5z"></path><path fill="url(#product-icon-invoicing-SiteMenu-b)" d="M8.402 38.663c.075-.013.15-.03.225-.05l26.147-7.005-10.187-17.645a2.5 2.5 0 00-3.415-.915L10 19.498V36.33a2.5 2.5 0 01-1.598 2.332z"></path><defs><linearGradient id="product-icon-invoicing-SiteMenu-a" x1="17.39" x2="17.389" y1="20.25" y2="38" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD748"></stop><stop offset="1" stop-color="#FFC148"></stop></linearGradient><linearGradient id="product-icon-invoicing-SiteMenu-b" x1="21.589" x2="21.588" y1="12.712" y2="38.663" gradientUnits="userSpaceOnUse"><stop stop-color="#00A600"></stop><stop offset="1" stop-color="#00D924"></stop></linearGradient></defs></svg>
   `;
 };
 
 export const CorporateCardIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <g clipPath="url(#product-icon-corporate-SiteMenu-card-a)">
-        <path
-          fill="url(#product-icon-corporate-SiteMenu-card-b)"
-          d="M32.94 19.84l-.56-2.6-.12-.57-2.73-12.7a2.47 2.47 0 00-1.09-1.57 2.52 2.52 0 00-1.89-.34L2 7.22A2.5 2.5 0 00.4 8.3a2.46 2.46 0 00-.34 1.87l3.42 15.87a2.51 2.51 0 002.96 1.9l3.31-.68v-.54.55L31 22.8a2.5 2.5 0 001.6-1.07c.37-.56.49-1.24.34-1.89z"
-        ></path>
-        <path
-          fill="#0073E6"
-          d="M37.5 17h-25c-.66 0-1.3.27-1.77.75a2.62 2.62 0 00-.73 1.83v16.84A2.54 2.54 0 0012.5 39h25c1.38 0 2.5-1.15 2.5-2.58V19.58c0-.69-.26-1.34-.73-1.83A2.46 2.46 0 0037.5 17z"
-        ></path>
-        <path
-          fill="url(#product-icon-corporate-SiteMenu-card-c)"
-          d="M32.33 17l.05.23.56 2.61A2.5 2.5 0 0131 22.8l-21 4.42v-7.64c0-.62.21-1.21.6-1.68l.13-.15c.47-.48 1.1-.75 1.77-.75h19.83z"
-        ></path>
-      </g>
-      <defs>
-        <linearGradient
-          id="product-icon-corporate-SiteMenu-card-b"
-          x1="16.5"
-          x2="16.5"
-          y1="-0.25"
-          y2="31.55"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0.18" stop-color="#FF80FF"></stop>
-          <stop offset="0.82" stop-color="#FF62DC"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-corporate-SiteMenu-card-c"
-          x1="11.92"
-          x2="11.92"
-          y1="17"
-          y2="28"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00299C"></stop>
-          <stop offset="1" stop-color="#0073E6"></stop>
-        </linearGradient>
-        <clipPath id="product-icon-corporate-SiteMenu-card-a">
-          <path fill="#fff" d="M0 0h40v40H0z"></path>
-        </clipPath>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><g clip-path="url(#product-icon-corporate-SiteMenu-card-a)"><path fill="url(#product-icon-corporate-SiteMenu-card-b)" d="M32.94 19.84l-.56-2.6-.12-.57-2.73-12.7a2.47 2.47 0 00-1.09-1.57 2.52 2.52 0 00-1.89-.34L2 7.22A2.5 2.5 0 00.4 8.3a2.46 2.46 0 00-.34 1.87l3.42 15.87a2.51 2.51 0 002.96 1.9l3.31-.68v-.54.55L31 22.8a2.5 2.5 0 001.6-1.07c.37-.56.49-1.24.34-1.89z"></path><path fill="#0073E6" d="M37.5 17h-25c-.66 0-1.3.27-1.77.75a2.62 2.62 0 00-.73 1.83v16.84A2.54 2.54 0 0012.5 39h25c1.38 0 2.5-1.15 2.5-2.58V19.58c0-.69-.26-1.34-.73-1.83A2.46 2.46 0 0037.5 17z"></path><path fill="url(#product-icon-corporate-SiteMenu-card-c)" d="M32.33 17l.05.23.56 2.61A2.5 2.5 0 0131 22.8l-21 4.42v-7.64c0-.62.21-1.21.6-1.68l.13-.15c.47-.48 1.1-.75 1.77-.75h19.83z"></path></g><defs><linearGradient id="product-icon-corporate-SiteMenu-card-b" x1="16.5" x2="16.5" y1="-0.25" y2="31.55" gradientUnits="userSpaceOnUse"><stop offset="0.18" stop-color="#FF80FF"></stop><stop offset="0.82" stop-color="#FF62DC"></stop></linearGradient><linearGradient id="product-icon-corporate-SiteMenu-card-c" x1="11.92" x2="11.92" y1="17" y2="28" gradientUnits="userSpaceOnUse"><stop stop-color="#00299C"></stop><stop offset="1" stop-color="#0073E6"></stop></linearGradient><clipPath id="product-icon-corporate-SiteMenu-card-a"><path fill="#fff" d="M0 0h40v40H0z"></path></clipPath></defs></svg>
   `;
 };
 
 export const CapitalIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="url(#product-icon-capital-SiteMenu-a)"
-        d="M23.95 14.05l-9.74 2.12-12.18 2.52A2.59 2.59 0 000 21.22v16.26A2.5 2.5 0 002.54 40H27V16.57a2.55 2.55 0 00-3.05-2.52z"
-      ></path>
-      <path
-        fill="url(#product-icon-capital-SiteMenu-b)"
-        d="M36.85.05l-21.82 4.6A2.57 2.57 0 0013 7.15V40h24.46c1.42-.2 2.54-1.3 2.54-2.7V2.55c0-1.6-1.52-2.8-3.15-2.5z"
-      ></path>
-      <path
-        fill="url(#product-icon-capital-SiteMenu-c)"
-        d="M23.95 14.05c1.63-.3 3.05.9 3.05 2.52V40H13V16.42l1.21-.25 9.74-2.12z"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-capital-SiteMenu-a"
-          x1="13.52"
-          x2="13.52"
-          y1="36.35"
-          y2="18.21"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00D0E1"></stop>
-          <stop offset="1" stop-color="#00F5E7"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-capital-SiteMenu-b"
-          x1="26.46"
-          x2="26.46"
-          y2="40"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00D924"></stop>
-          <stop offset="1" stop-color="#00D924"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-capital-SiteMenu-c"
-          x1="19.93"
-          x2="19.93"
-          y1="40"
-          y2="14"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00D722"></stop>
-          <stop offset="0.85" stop-color="#00BD01"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><path fill="url(#product-icon-capital-SiteMenu-a)" d="M23.95 14.05l-9.74 2.12-12.18 2.52A2.59 2.59 0 000 21.22v16.26A2.5 2.5 0 002.54 40H27V16.57a2.55 2.55 0 00-3.05-2.52z"></path><path fill="url(#product-icon-capital-SiteMenu-b)" d="M36.85.05l-21.82 4.6A2.57 2.57 0 0013 7.15V40h24.46c1.42-.2 2.54-1.3 2.54-2.7V2.55c0-1.6-1.52-2.8-3.15-2.5z"></path><path fill="url(#product-icon-capital-SiteMenu-c)" d="M23.95 14.05c1.63-.3 3.05.9 3.05 2.52V40H13V16.42l1.21-.25 9.74-2.12z"></path><defs><linearGradient id="product-icon-capital-SiteMenu-a" x1="13.52" x2="13.52" y1="36.35" y2="18.21" gradientUnits="userSpaceOnUse"><stop stop-color="#00D0E1"></stop><stop offset="1" stop-color="#00F5E7"></stop></linearGradient><linearGradient id="product-icon-capital-SiteMenu-b" x1="26.46" x2="26.46" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#00D924"></stop><stop offset="1" stop-color="#00D924"></stop></linearGradient><linearGradient id="product-icon-capital-SiteMenu-c" x1="19.93" x2="19.93" y1="40" y2="14" gradientUnits="userSpaceOnUse"><stop stop-color="#00D722"></stop><stop offset="0.85" stop-color="#00BD01"></stop></linearGradient></defs></svg>
   `;
 };
 
 export const IssuingIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="url(#product-icon-issuing-SiteMenu-a)"
-        d="M7.62 26.48l-.02-.03a2.44 2.44 0 01-.7-1.48 2.49 2.49 0 01.11-1.05c.05-.28.13-.54.24-.77l.08-.17L14.67 10h21.85A2.52 2.52 0 0139 12.37l.01.16v22.92A2.52 2.52 0 0136.67 38l-.16.01H19a2.5 2.5 0 00.64-1.97c-.07-.66-.43-1.09-.95-1.47l-.15-.1-10.62-7.73-.14-.1v-.01l.14.1a2.52 2.52 0 01-.27-.21l-.03-.03z"
-      ></path>
-      <path
-        fill="#0073E6"
-        d="M22.05 2.1c.7-.15 1.41 0 1.99.41l6.56 4.72a2.5 2.5 0 01.92 2.8V10l-8.5 26-.05.2-.03.08-.03.09-.15.32-.02.04-.19.29-.03.04a2.9 2.9 0 01-.23.25l-.03.02a2.24 2.24 0 01-.58.4l-.03.03c-.1.05-.2.1-.31.13h-.05l-.33.08h-.05a2.3 2.3 0 01-.36.03H3.53A2.53 2.53 0 011 35.45v-22.9C1 11.14 2.13 10 3.53 10H16.6l3.8-6.7a2.5 2.5 0 011.46-1.15l.18-.05z"
-      ></path>
-      <path
-        fill="url(#product-icon-issuing-SiteMenu-b)"
-        d="M31.38 10l-8.37 26-.02.1-.02.1-.03.08-.03.09-.07.16-.08.16-.02.04-.1.15-.09.14-.03.04-.11.13-.12.12-.03.02c-.08.09-.17.16-.26.23l-.15.1-.17.08-.03.02-.15.07-.16.06h-.05l-.16.05-.1.01.1-.1c.4-.51.59-1.17.51-1.82-.07-.66-.43-1.09-.95-1.47l-.15-.1-10.62-7.73-.14-.1a2.54 2.54 0 01-.26-.26l-.04-.05a2.48 2.48 0 01-.12-.14l-.02-.04-.03-.04a2.43 2.43 0 01-.17-.3l-.03-.06a2.5 2.5 0 01-.15-.42l-.01-.07-.02-.1-.01-.06a2.51 2.51 0 01.05-1.01l.02-.09a2.5 2.5 0 01.04-.1c.03-.25.1-.5.21-.74l.1-.17L16.66 10h14.71z"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-issuing-SiteMenu-a"
-          x1="22.92"
-          x2="22.92"
-          y1="11.68"
-          y2="39.68"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0.1" stop-color="#FF80FF"></stop>
-          <stop offset="0.39" stop-color="#FF7BF9"></stop>
-          <stop offset="0.77" stop-color="#FF6EEA"></stop>
-          <stop offset="1" stop-color="#FF62DC"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-issuing-SiteMenu-b"
-          x1="31.38"
-          x2="11.62"
-          y1="27.93"
-          y2="27.93"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#0073E6"></stop>
-          <stop offset="1" stop-color="#00299C"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><path fill="url(#product-icon-issuing-SiteMenu-a)" d="M7.62 26.48l-.02-.03a2.44 2.44 0 01-.7-1.48 2.49 2.49 0 01.11-1.05c.05-.28.13-.54.24-.77l.08-.17L14.67 10h21.85A2.52 2.52 0 0139 12.37l.01.16v22.92A2.52 2.52 0 0136.67 38l-.16.01H19a2.5 2.5 0 00.64-1.97c-.07-.66-.43-1.09-.95-1.47l-.15-.1-10.62-7.73-.14-.1v-.01l.14.1a2.52 2.52 0 01-.27-.21l-.03-.03z"></path><path fill="#0073E6" d="M22.05 2.1c.7-.15 1.41 0 1.99.41l6.56 4.72a2.5 2.5 0 01.92 2.8V10l-8.5 26-.05.2-.03.08-.03.09-.15.32-.02.04-.19.29-.03.04a2.9 2.9 0 01-.23.25l-.03.02a2.24 2.24 0 01-.58.4l-.03.03c-.1.05-.2.1-.31.13h-.05l-.33.08h-.05a2.3 2.3 0 01-.36.03H3.53A2.53 2.53 0 011 35.45v-22.9C1 11.14 2.13 10 3.53 10H16.6l3.8-6.7a2.5 2.5 0 011.46-1.15l.18-.05z"></path><path fill="url(#product-icon-issuing-SiteMenu-b)" d="M31.38 10l-8.37 26-.02.1-.02.1-.03.08-.03.09-.07.16-.08.16-.02.04-.1.15-.09.14-.03.04-.11.13-.12.12-.03.02c-.08.09-.17.16-.26.23l-.15.1-.17.08-.03.02-.15.07-.16.06h-.05l-.16.05-.1.01.1-.1c.4-.51.59-1.17.51-1.82-.07-.66-.43-1.09-.95-1.47l-.15-.1-10.62-7.73-.14-.1a2.54 2.54 0 01-.26-.26l-.04-.05a2.48 2.48 0 01-.12-.14l-.02-.04-.03-.04a2.43 2.43 0 01-.17-.3l-.03-.06a2.5 2.5 0 01-.15-.42l-.01-.07-.02-.1-.01-.06a2.51 2.51 0 01.05-1.01l.02-.09a2.5 2.5 0 01.04-.1c.03-.25.1-.5.21-.74l.1-.17L16.66 10h14.71z"></path><defs><linearGradient id="product-icon-issuing-SiteMenu-a" x1="22.92" x2="22.92" y1="11.68" y2="39.68" gradientUnits="userSpaceOnUse"><stop offset="0.1" stop-color="#FF80FF"></stop><stop offset="0.39" stop-color="#FF7BF9"></stop><stop offset="0.77" stop-color="#FF6EEA"></stop><stop offset="1" stop-color="#FF62DC"></stop></linearGradient><linearGradient id="product-icon-issuing-SiteMenu-b" x1="31.38" x2="11.62" y1="27.93" y2="27.93" gradientUnits="userSpaceOnUse"><stop stop-color="#0073E6"></stop><stop offset="1" stop-color="#00299C"></stop></linearGradient></defs></svg>
   `;
 };
 
 export const TreasuryIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="url(#product-icon-banking-SiteMenu-a)"
-        d="M29 14.5c0-.36-.07-.71-.22-1.04l-3.92-8.94A2.52 2.52 0 0022.56 3H2.52A2.54 2.54 0 000 5.56v17.88A2.54 2.54 0 002.52 26h20.04c1 0 1.9-.6 2.3-1.52l3.92-8.94c.15-.33.22-.68.22-1.04z"
-      ></path>
-      <path
-        fill="#00D924"
-        d="M11 25.5c0 .36.07.71.22 1.04l3.92 8.94c.4.93 1.3 1.52 2.3 1.52h20.04c1.4 0 2.52-1.14 2.52-2.56V16.56A2.54 2.54 0 0037.48 14H17.44c-1 0-1.9.6-2.3 1.52l-3.92 8.94c-.15.33-.22.68-.22 1.04z"
-      ></path>
-      <path
-        fill="url(#product-icon-banking-SiteMenu-b)"
-        d="M28.95 14a2.59 2.59 0 01-.17 1.54l-3.92 8.94c-.4.93-1.3 1.52-2.3 1.52H11.05a2.59 2.59 0 01.17-1.54l3.92-8.94c.4-.93 1.3-1.52 2.3-1.52h11.51z"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-banking-SiteMenu-a"
-          x1="14.5"
-          x2="14.5"
-          y1="6.13"
-          y2="28.22"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#11EFE3"></stop>
-          <stop offset="0.35" stop-color="#14E8E2"></stop>
-          <stop offset="0.86" stop-color="#1ED6E1"></stop>
-          <stop offset="1" stop-color="#21CFE0"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-banking-SiteMenu-b"
-          x1="25.31"
-          x2="25.31"
-          y1="29.5"
-          y2="9"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#00D924"></stop>
-          <stop offset="1" stop-color="#00A600"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
-  `;
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><path fill="url(#product-icon-banking-SiteMenu-a)" d="M29 14.5c0-.36-.07-.71-.22-1.04l-3.92-8.94A2.52 2.52 0 0022.56 3H2.52A2.54 2.54 0 000 5.56v17.88A2.54 2.54 0 002.52 26h20.04c1 0 1.9-.6 2.3-1.52l3.92-8.94c.15-.33.22-.68.22-1.04z"></path><path fill="#00D924" d="M11 25.5c0 .36.07.71.22 1.04l3.92 8.94c.4.93 1.3 1.52 2.3 1.52h20.04c1.4 0 2.52-1.14 2.52-2.56V16.56A2.54 2.54 0 0037.48 14H17.44c-1 0-1.9.6-2.3 1.52l-3.92 8.94c-.15.33-.22.68-.22 1.04z"></path><path fill="url(#product-icon-banking-SiteMenu-b)" d="M28.95 14a2.59 2.59 0 01-.17 1.54l-3.92 8.94c-.4.93-1.3 1.52-2.3 1.52H11.05a2.59 2.59 0 01.17-1.54l3.92-8.94c.4-.93 1.3-1.52 2.3-1.52h11.51z"></path><defs><linearGradient id="product-icon-banking-SiteMenu-a" x1="14.5" x2="14.5" y1="6.13" y2="28.22" gradientUnits="userSpaceOnUse"><stop stop-color="#11EFE3"></stop><stop offset="0.35" stop-color="#14E8E2"></stop><stop offset="0.86" stop-color="#1ED6E1"></stop><stop offset="1" stop-color="#21CFE0"></stop></linearGradient><linearGradient id="product-icon-banking-SiteMenu-b" x1="25.31" x2="25.31" y1="29.5" y2="9" gradientUnits="userSpaceOnUse"><stop stop-color="#00D924"></stop><stop offset="1" stop-color="#00A600"></stop></linearGradient></defs></svg>
+`;
 };
 
 export const RadarIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="#9A66FF"
-        d="M24.87 4.46a1.26 1.26 0 00-1.8.2l-4.6 5.82L3.42 29.45c.27.22.54.45.78.7a9.42 9.42 0 011.13 1.32l.1.13a9.15 9.15 0 01.8 1.43c.29.62.5 1.28.65 1.95a2.5 2.5 0 002.45 1.93H38.7a1.27 1.27 0 001.27-1.3 42.43 42.43 0 00-15.1-31.15z"
-      ></path>
-      <path
-        fill="url(#product-icon-radar-SiteMenu-a)"
-        d="M27.8 21.98A33.82 33.82 0 005.95 4.28a1.29 1.29 0 00-1.56.98L.1 25.4a2.54 2.54 0 001.4 2.88 9.48 9.48 0 012.72 1.87l.17.17c.35.36.67.74.96 1.15l.1.13a9.15 9.15 0 01.8 1.43l20.94-9.31a1.29 1.29 0 00.62-1.74z"
-      ></path>
-      <path
-        fill="url(#product-icon-radar-SiteMenu-b)"
-        d="M18.46 10.48l.47.38a33.82 33.82 0 018.87 11.12 1.29 1.29 0 01-.62 1.74L6.25 33.03a9.15 9.15 0 00-.8-1.43l-.1-.13-.23-.3a8.5 8.5 0 00-.74-.85 9.7 9.7 0 00-.95-.86l15.03-18.98z"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-radar-SiteMenu-a"
-          x1="13.98"
-          x2="13.98"
-          y1="4.24"
-          y2="33.03"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0.26" stop-color="#FF5091"></stop>
-          <stop offset="0.91" stop-color="#E03071"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-radar-SiteMenu-b"
-          x1="15.68"
-          x2="15.68"
-          y1="10.48"
-          y2="33.03"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#6E00F5"></stop>
-          <stop offset="1" stop-color="#9860FE"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><path fill="#9A66FF" d="M24.87 4.46a1.26 1.26 0 00-1.8.2l-4.6 5.82L3.42 29.45c.27.22.54.45.78.7a9.42 9.42 0 011.13 1.32l.1.13a9.15 9.15 0 01.8 1.43c.29.62.5 1.28.65 1.95a2.5 2.5 0 002.45 1.93H38.7a1.27 1.27 0 001.27-1.3 42.43 42.43 0 00-15.1-31.15z"></path><path fill="url(#product-icon-radar-SiteMenu-a)" d="M27.8 21.98A33.82 33.82 0 005.95 4.28a1.29 1.29 0 00-1.56.98L.1 25.4a2.54 2.54 0 001.4 2.88 9.48 9.48 0 012.72 1.87l.17.17c.35.36.67.74.96 1.15l.1.13a9.15 9.15 0 01.8 1.43l20.94-9.31a1.29 1.29 0 00.62-1.74z"></path><path fill="url(#product-icon-radar-SiteMenu-b)" d="M18.46 10.48l.47.38a33.82 33.82 0 018.87 11.12 1.29 1.29 0 01-.62 1.74L6.25 33.03a9.15 9.15 0 00-.8-1.43l-.1-.13-.23-.3a8.5 8.5 0 00-.74-.85 9.7 9.7 0 00-.95-.86l15.03-18.98z"></path><defs><linearGradient id="product-icon-radar-SiteMenu-a" x1="13.98" x2="13.98" y1="4.24" y2="33.03" gradientUnits="userSpaceOnUse"><stop offset="0.26" stop-color="#FF5091"></stop><stop offset="0.91" stop-color="#E03071"></stop></linearGradient><linearGradient id="product-icon-radar-SiteMenu-b" x1="15.68" x2="15.68" y1="10.48" y2="33.03" gradientUnits="userSpaceOnUse"><stop stop-color="#6E00F5"></stop><stop offset="1" stop-color="#9860FE"></stop></linearGradient></defs></svg>
   `;
 };
 
 export const SigmaIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="url(#product-icon-sigma-SiteMenu-a)"
-        d="M5 35V7a3 3 0 015.48-1.69L21.2 21 9.32 38H8a3 3 0 01-3-3z"
-      ></path>
-      <path
-        fill="url(#product-icon-sigma-SiteMenu-b)"
-        d="M8.06 4h25.16a1.5 1.5 0 011.1 2.51L21.15 21 5.84 4.92A3 3 0 018.05 4z"
-      ></path>
-      <path
-        fill="#9A66FF"
-        d="M7.88 38H33.2a1.5 1.5 0 001.11-2.51L21.11 21 7.14 36.33A1 1 0 007.88 38z"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-sigma-SiteMenu-a"
-          x1="13.1"
-          x2="13.1"
-          y1="38"
-          y2="12.99"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#9860FE"></stop>
-          <stop offset="1" stop-color="#6E00F5"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-sigma-SiteMenu-b"
-          x1="20.28"
-          x2="20.28"
-          y1="8.42"
-          y2="19.47"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#FF5091"></stop>
-          <stop offset="1" stop-color="#E03071"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><path fill="url(#product-icon-sigma-SiteMenu-a)" d="M5 35V7a3 3 0 015.48-1.69L21.2 21 9.32 38H8a3 3 0 01-3-3z"></path><path fill="url(#product-icon-sigma-SiteMenu-b)" d="M8.06 4h25.16a1.5 1.5 0 011.1 2.51L21.15 21 5.84 4.92A3 3 0 018.05 4z"></path><path fill="#9A66FF" d="M7.88 38H33.2a1.5 1.5 0 001.11-2.51L21.11 21 7.14 36.33A1 1 0 007.88 38z"></path><defs><linearGradient id="product-icon-sigma-SiteMenu-a" x1="13.1" x2="13.1" y1="38" y2="12.99" gradientUnits="userSpaceOnUse"><stop stop-color="#9860FE"></stop><stop offset="1" stop-color="#6E00F5"></stop></linearGradient><linearGradient id="product-icon-sigma-SiteMenu-b" x1="20.28" x2="20.28" y1="8.42" y2="19.47" gradientUnits="userSpaceOnUse"><stop stop-color="#FF5091"></stop><stop offset="1" stop-color="#E03071"></stop></linearGradient></defs></svg>
   `;
 };
 export const AtlasIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <g clipPath="url(#product-icon-atlas-SiteMenu-a)">
-        <path
-          fill="#FB0"
-          d="M20.51.3c1 0 1.92.57 2.36 1.47l8.22 16.42 8.65 17.31a2.64 2.64 0 01-1.65 3.73l-.17.04c-.12.03-.24.04-.36.05h-.18L20.5 35.99 9.94 18.19l8.2-16.42A2.64 2.64 0 0120.52.3z"
-        ></path>
-        <path
-          fill="url(#product-icon-atlas-SiteMenu-b)"
-          d="M20.51.3c1 0 1.92.57 2.36 1.47l8.22 16.42L20.5 35.98 3.65 39.33a2.64 2.64 0 01-2.37-3.83l8.66-17.3 8.2-16.43A2.64 2.64 0 0120.52.3z"
-        ></path>
-        <path
-          fill="url(#product-icon-atlas-SiteMenu-c)"
-          d="M20.51.3c1 0 1.92.57 2.36 1.47l8.22 16.42L20.5 35.98 9.94 18.19l8.2-16.42A2.64 2.64 0 0120.34.3h.18z"
-        ></path>
-      </g>
-      <defs>
-        <linearGradient
-          id="product-icon-atlas-SiteMenu-b"
-          x1="16.03"
-          x2="15.94"
-          y1="18.01"
-          y2="39.33"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#FFD748"></stop>
-          <stop offset="0.54" stop-color="#FFCD48"></stop>
-          <stop offset="1" stop-color="#FFCB48"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-atlas-SiteMenu-c"
-          x1="20.51"
-          x2="20.51"
-          y1="34.72"
-          y2="15.01"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#FFAD00"></stop>
-          <stop offset="1" stop-color="#FF7600"></stop>
-        </linearGradient>
-        <clipPath id="product-icon-atlas-SiteMenu-a">
-          <path fill="#fff" d="M0 0h40v40H0z"></path>
-        </clipPath>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><g clip-path="url(#product-icon-atlas-SiteMenu-a)"><path fill="#FB0" d="M20.51.3c1 0 1.92.57 2.36 1.47l8.22 16.42 8.65 17.31a2.64 2.64 0 01-1.65 3.73l-.17.04c-.12.03-.24.04-.36.05h-.18L20.5 35.99 9.94 18.19l8.2-16.42A2.64 2.64 0 0120.52.3z"></path><path fill="url(#product-icon-atlas-SiteMenu-b)" d="M20.51.3c1 0 1.92.57 2.36 1.47l8.22 16.42L20.5 35.98 3.65 39.33a2.64 2.64 0 01-2.37-3.83l8.66-17.3 8.2-16.43A2.64 2.64 0 0120.52.3z"></path><path fill="url(#product-icon-atlas-SiteMenu-c)" d="M20.51.3c1 0 1.92.57 2.36 1.47l8.22 16.42L20.5 35.98 9.94 18.19l8.2-16.42A2.64 2.64 0 0120.34.3h.18z"></path></g><defs><linearGradient id="product-icon-atlas-SiteMenu-b" x1="16.03" x2="15.94" y1="18.01" y2="39.33" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD748"></stop><stop offset="0.54" stop-color="#FFCD48"></stop><stop offset="1" stop-color="#FFCB48"></stop></linearGradient><linearGradient id="product-icon-atlas-SiteMenu-c" x1="20.51" x2="20.51" y1="34.72" y2="15.01" gradientUnits="userSpaceOnUse"><stop stop-color="#FFAD00"></stop><stop offset="1" stop-color="#FF7600"></stop></linearGradient><clipPath id="product-icon-atlas-SiteMenu-a"><path fill="#fff" d="M0 0h40v40H0z"></path></clipPath></defs></svg>
   `;
 };
 
 export const ClimateIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-10 md:h-10"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="url(#product-icon-climate-SiteMenu-a)"
-        d="M33.24 21.09c-4.28 0-9.09-2.96-13.24-5.81-4.4-3.04-9.24-7.05-13.24-7.05C2.68 8.23 0 11.96 0 15.28v.28a20 20 0 1040 0c-.13 2.68-2.03 5.53-6.76 5.53z"
-      ></path>
-      <path
-        fill="url(#product-icon-climate-SiteMenu-b)"
-        d="M33.24 8.24c-4 0-8.84 4-13.24 7.04-4.15 2.85-8.96 5.8-13.24 5.8-4.73 0-6.63-2.84-6.76-5.52a20 20 0 1040 0v-.28c0-3.32-2.67-7.05-6.76-7.04z"
-      ></path>
-      <path
-        fill="url(#product-icon-climate-SiteMenu-c)"
-        d="M20 15.28c4.15 2.85 8.96 5.8 13.24 5.8 4.73 0 6.63-2.84 6.76-5.52a20 20 0 11-40 0c.13 2.68 2.03 5.53 6.76 5.53 4.28 0 9.09-2.96 13.24-5.81z"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-climate-SiteMenu-a"
-          x1="20"
-          x2="20"
-          y1="20.63"
-          y2="9.57"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#FFD748"></stop>
-          <stop offset="0.21" stop-color="#FFD644"></stop>
-          <stop offset="0.33" stop-color="#FFD438"></stop>
-          <stop offset="0.45" stop-color="#FFD024"></stop>
-          <stop offset="0.57" stop-color="#FFCB09"></stop>
-          <stop offset="1" stop-color="#FFC900"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-climate-SiteMenu-b"
-          x1="20"
-          x2="20"
-          y1="9.56"
-          y2="21.9"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#009C00"></stop>
-          <stop offset="1" stop-color="#00BA18"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-climate-SiteMenu-c"
-          x1="20"
-          x2="20"
-          y1="35.28"
-          y2="15.28"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0.13" stop-color="#00CB1B"></stop>
-          <stop offset="1" stop-color="#00D924"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 40 40"><path fill="url(#product-icon-climate-SiteMenu-a)" d="M33.24 21.09c-4.28 0-9.09-2.96-13.24-5.81-4.4-3.04-9.24-7.05-13.24-7.05C2.68 8.23 0 11.96 0 15.28v.28a20 20 0 1040 0c-.13 2.68-2.03 5.53-6.76 5.53z"></path><path fill="url(#product-icon-climate-SiteMenu-b)" d="M33.24 8.24c-4 0-8.84 4-13.24 7.04-4.15 2.85-8.96 5.8-13.24 5.8-4.73 0-6.63-2.84-6.76-5.52a20 20 0 1040 0v-.28c0-3.32-2.67-7.05-6.76-7.04z"></path><path fill="url(#product-icon-climate-SiteMenu-c)" d="M20 15.28c4.15 2.85 8.96 5.8 13.24 5.8 4.73 0 6.63-2.84 6.76-5.52a20 20 0 11-40 0c.13 2.68 2.03 5.53 6.76 5.53 4.28 0 9.09-2.96 13.24-5.81z"></path><defs><linearGradient id="product-icon-climate-SiteMenu-a" x1="20" x2="20" y1="20.63" y2="9.57" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD748"></stop><stop offset="0.21" stop-color="#FFD644"></stop><stop offset="0.33" stop-color="#FFD438"></stop><stop offset="0.45" stop-color="#FFD024"></stop><stop offset="0.57" stop-color="#FFCB09"></stop><stop offset="1" stop-color="#FFC900"></stop></linearGradient><linearGradient id="product-icon-climate-SiteMenu-b" x1="20" x2="20" y1="9.56" y2="21.9" gradientUnits="userSpaceOnUse"><stop stop-color="#009C00"></stop><stop offset="1" stop-color="#00BA18"></stop></linearGradient><linearGradient id="product-icon-climate-SiteMenu-c" x1="20" x2="20" y1="35.28" y2="15.28" gradientUnits="userSpaceOnUse"><stop offset="0.13" stop-color="#00CB1B"></stop><stop offset="1" stop-color="#00D924"></stop></linearGradient></defs></svg>
   `;
 };
 
 export const PayoutsIcon = () => {
-  return `
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="w-6 h-6 md:w-8 md:h-8"
-      fill="none"
-      view-box="0 0 40 40"
-    >
-      <path
-        fill="#0073E6"
-        fillRule="evenodd"
-        d="M2 17h33a3 3 0 013 3v17a3 3 0 01-3 3H5a3 3 0 01-3-3V17z"
-        clipRule="evenodd"
-      ></path>
-      <path
-        fill="url(#product-icon-payouts-SiteMobileMenu-a)"
-        d="M17.77.36L3.03 11.08A2.5 2.5 0 002 13.1v24.02c0 .99.67 2.02 1.68 2.59-.5-1.1-.34-2.36.67-3.03L19.72 25.5a2.5 2.5 0 001.03-2.02V1.88A1.88 1.88 0 0017.77.36z"
-      ></path>
-      <path
-        fill="url(#product-icon-payouts-SiteMobileMenu-b)"
-        fillRule="evenodd"
-        d="M20.75 17v6.5c0 .8-.38 1.54-1.03 2.01L4.35 36.68c-1.01.67-1.17 1.92-.67 3.03v-.02a3.4 3.4 0 01-1.5-1.7A3 3 0 012 37V17h18.75z"
-        clipRule="evenodd"
-      ></path>
-      <defs>
-        <linearGradient
-          id="product-icon-payouts-SiteMobileMenu-a"
-          x1="11.38"
-          x2="11.38"
-          y1="2.61"
-          y2="23.3"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#11EFE3"></stop>
-          <stop offset="0.33" stop-color="#15E8E2"></stop>
-          <stop offset="0.74" stop-color="#1FD3E0"></stop>
-          <stop offset="1" stop-color="#21CFE0"></stop>
-        </linearGradient>
-        <linearGradient
-          id="product-icon-payouts-SiteMobileMenu-b"
-          x1="2"
-          x2="22.91"
-          y1="25.91"
-          y2="25.91"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#0073E6"></stop>
-          <stop offset="1" stop-color="#00299C"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
+  return `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-8 md:h-8" fill="none" viewBox="0 0 40 40"><path fill="#0073E6" fill-rule="evenodd" d="M2 17h33a3 3 0 013 3v17a3 3 0 01-3 3H5a3 3 0 01-3-3V17z" clip-rule="evenodd"></path><path fill="url(#product-icon-payouts-SiteMobileMenu-a)" d="M17.77.36L3.03 11.08A2.5 2.5 0 002 13.1v24.02c0 .99.67 2.02 1.68 2.59-.5-1.1-.34-2.36.67-3.03L19.72 25.5a2.5 2.5 0 001.03-2.02V1.88A1.88 1.88 0 0017.77.36z"></path><path fill="url(#product-icon-payouts-SiteMobileMenu-b)" fill-rule="evenodd" d="M20.75 17v6.5c0 .8-.38 1.54-1.03 2.01L4.35 36.68c-1.01.67-1.17 1.92-.67 3.03v-.02a3.4 3.4 0 01-1.5-1.7A3 3 0 012 37V17h18.75z" clip-rule="evenodd"></path><defs><linearGradient id="product-icon-payouts-SiteMobileMenu-a" x1="11.38" x2="11.38" y1="2.61" y2="23.3" gradientUnits="userSpaceOnUse"><stop stop-color="#11EFE3"></stop><stop offset="0.33" stop-color="#15E8E2"></stop><stop offset="0.74" stop-color="#1FD3E0"></stop><stop offset="1" stop-color="#21CFE0"></stop></linearGradient><linearGradient id="product-icon-payouts-SiteMobileMenu-b" x1="2" x2="22.91" y1="25.91" y2="25.91" gradientUnits="userSpaceOnUse"><stop stop-color="#0073E6"></stop><stop offset="1" stop-color="#00299C"></stop></linearGradient></defs></svg>
   `;
 };
 
