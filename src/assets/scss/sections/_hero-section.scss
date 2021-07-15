@@ -1,0 +1,83 @@
+// mobile-phone 640px
+// tablet 768px
+// tablet-landscape 991px
+// large-desktop 1024px
+// extra-large-desktop 1280px
+
+.register-btn {
+  width: 100%;
+
+  @include min-break-point(mobile-phone) {
+    width: 70%;
+  }
+
+  @include min-break-point(extra-large-desktop) {
+    width: 65%;
+  }
+}
+
+.heading-primary {
+  font-size: 3rem;
+  line-height: 3.3rem;
+
+  @include min-break-point(mobile-phone) {
+    font-size: 4rem;
+    line-height: 4.2rem;
+  }
+
+  @include min-break-point(tablet) {
+    font-size: 4rem;
+    line-height: 4.6rem;
+  }
+
+  @include min-break-point(large-desktop) {
+    font-size: 5rem;
+    line-height: 5.1rem;
+  }
+
+  @include min-break-point(extra-large-desktop) {
+    font-size: 6rem;
+    line-height: 6.1rem;
+  }
+}
+
+.heading-secondary {
+  width: 100%;
+
+  @include min-break-point(large-desktop) {
+    width: 100%;
+  }
+
+  @include min-break-point(extra-large-desktop) {
+    width: 65%;
+  }
+}
+
+.heading {
+  min-width: 100%;
+
+  @include min-break-point(tablet) {
+    min-width: 70%;
+  }
+}
+
+.overlay {
+  height: 31.5rem;
+  clip-path: polygon(0 0, 100% 0, 100% 56%, 0 70%);
+  background-image: linear-gradient(
+    to top right,
+    #7038ff,
+    #6ec3f4,
+    #ef008f,
+    #ffba27
+  );
+
+  @include min-break-point(mobile-phone) {
+    height: 31rem;
+    clip-path: polygon(0 0, 100% 0, 100% 61%, 0 82%);
+  }
+
+  @include min-break-point(extra-large-desktop) {
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+  }
+}

@@ -1,0 +1,92 @@
+// mobile-phone 640px
+// tablet 768px
+// tablet-landscape 991px
+// large-desktop 1024px
+// extra-large-desktop 1280px
+
+.card-image-wrapper {
+  min-width: 18rem;
+  @include min-break-point(mobile-phone) {
+    min-width: 12rem;
+  }
+
+  @include min-break-point(tablet) {
+    min-width: 16rem;
+  }
+
+  @include min-break-point(large-desktop) {
+    min-width: 24rem;
+  }
+}
+
+.g-pay-image-wrapper {
+  min-width: 12rem;
+  @include min-break-point(mobile-phone) {
+    min-width: 22rem;
+  }
+
+  @include min-break-point(tablet) {
+    min-width: 18rem;
+  }
+
+  @include min-break-point(large-desktop) {
+    min-width: 26rem;
+  }
+}
+
+.invoice-image-wrapper {
+  min-width: 30rem;
+  @include min-break-point(mobile-phone) {
+    min-width: 28rem;
+  }
+
+  @include min-break-point(tablet) {
+    min-width: 28rem;
+  }
+
+  @include min-break-point(large-desktop) {
+    min-width: 45rem;
+  }
+
+  @include min-break-point(extra-large-desktop) {
+    min-width: 32rem;
+  }
+}
+
+.ipay-image-wrapper {
+  min-width: 18rem;
+  @include min-break-point(mobile-phone) {
+    min-width: 16rem;
+  }
+
+  @include min-break-point(tablet) {
+    min-width: 18rem;
+  }
+
+  @include min-break-point(large-desktop) {
+    min-width: 22rem;
+  }
+
+  @include min-break-point(extra-large-desktop) {
+    min-width: 18rem;
+  }
+}
+
+.dashboard-image-wrapper {
+  min-width: 28rem;
+  @include min-break-point(mobile-phone) {
+    min-width: 36rem;
+  }
+
+  @include min-break-point(tablet) {
+    min-width: 46rem;
+  }
+
+  @include min-break-point(large-desktop) {
+    min-width: 48rem;
+  }
+
+  @include min-break-point(extra-large-desktop) {
+    min-width: 52rem;
+  }
+}

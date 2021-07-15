@@ -1,0 +1,16 @@
+.NodesIcon__dot {
+  transform: scale(0.666666667);
+  transform-origin: 34px 48px;
+}
+
+.NodesIcon__segmentRotator {
+  transform-origin: 34px 48px;
+}
+
+.HealthIcon__line {
+  stroke: #fff;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  stroke-dasharray: 81px;
+  fill: none;
+}
