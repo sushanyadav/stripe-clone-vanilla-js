@@ -15,8 +15,10 @@ import Button from "./components/Button";
 import DashedLines from "./components/DashedLines";
 
 import "./components/HeroSection/HomeHeroSection";
+import "./components/LogoSection";
 import "./components/PaymentSection";
 import "./components/DeveloperSection";
+import "./components/WhyStripeSection";
 import "./components/GetStartedSection";
 import "./components/Footer";
 
@@ -229,5 +231,6 @@ const buttonElement = document.getElementsByClassName("arrow-button");
 const lineContainer = document.querySelectorAll(".lines");
 
 lineContainer.forEach((element) => {
-  element.innerHTML = DashedLines({});
+  const opacityClass = element.getAttribute("data-opacity-class");
+  element.innerHTML = DashedLines({ opacity: opacityClass });
 });

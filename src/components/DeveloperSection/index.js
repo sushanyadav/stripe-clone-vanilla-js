@@ -1,9 +1,11 @@
 import Prism from "prismjs";
 import Button from "../Button";
+import { PreBuiltIcon, ToolsIcon } from "../../utils/icons";
 
 const readDocsBtnContainer = document.getElementById("read-docs-btn-container");
 const libraryBtnContainer = document.getElementById("library-section");
 const preBuiltBtnContainer = document.getElementById("prebuilt-section");
+const iconCardContainer = document.getElementsByClassName("developers-card");
 
 const readDocsBtn = Button({
   backgroundClass: "bg-accent",
@@ -26,8 +28,28 @@ readDocsBtnContainer.innerHTML = readDocsBtn;
 libraryBtnContainer.innerHTML = librarySectionBtn;
 preBuiltBtnContainer.innerHTML = preBuiltSectionBtn;
 
-//code typewrite
+[...iconCardContainer].forEach((el) => {
+  const iconContainer = document.createElement("div");
 
+  const iconName = el.getAttribute("data-icon");
+
+  switch (iconName) {
+    case "tools":
+      iconContainer.innerHTML = ToolsIcon();
+
+      break;
+    case "pre-built":
+      iconContainer.innerHTML = PreBuiltIcon();
+
+      break;
+    default:
+      break;
+  }
+
+  el.prepend(iconContainer);
+});
+
+//code typewrite
 const clientCodeString = `const stripe = require('stripe')('sk_test_BQokikJOvBi2Hl4olfQ2');
 
 await stripe.paymentIntents.create({
